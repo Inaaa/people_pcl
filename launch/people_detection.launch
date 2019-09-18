@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="people_detection" pkg="cob_people_object_detection_tensorflow" type="people_detection.py" output="screen"  >
+#launch-prefix="xterm -e python -m pdb "
+  </node>
+</launch>

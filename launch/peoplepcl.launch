@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="people_pcl" pkg="people_pcl" type="people_pcl.py" output="screen"  >
+#launch-prefix="xterm -e python -m pdb "
+  </node>
+</launch>
